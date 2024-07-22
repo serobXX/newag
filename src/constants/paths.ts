@@ -1,0 +1,18 @@
+export const PATHS = {
+  CREATE_APP: 'create-app',
+  LOGIN: "login",
+  CUSTOMIZATION: 'customization',
+  FEATURE: 'feature',
+  PLUGINS: 'plugins',
+  YOUR_APPS: 'your-apps',
+  MAIN: 'dashboard',
+  PUBLISH: 'publish',
+  MONETIZE: 'monetize',
+  FAQ: 'faq',
+  DISTRIBUTE: 'distribute',
+  REFERRAL: 'referral',
+  BLOCKED: 'blocked',
+  EDIT: 'edit',
+  MY_PROFILE: 'my-profile',
+  MENU: 'menu',
+} as const;

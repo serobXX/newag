@@ -1,0 +1,6 @@
+.helper {
+  --reactour-accent: #58E79A;
+  color: #2d2323;
+  padding: 20px;
+  z-index: 99; /* Adjust the value as needed */
+}

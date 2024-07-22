@@ -1,0 +1,28 @@
+{
+  "validate": {
+    "ok": true,
+    "data": {
+      "valid": true,
+      "suggest": "https://google.com",
+      "parsedParts": {
+        "scheme": "https",
+        "host": "google.com"
+      },
+      "normalized": "https://google.com/"
+    },
+    "query": {
+      "url": "https://google.com"
+    }
+  },
+  "parse": {
+    "ok": true,
+    "data": {
+      "content": "",
+      "templatesHtml": "<div>Hello World!</div>"
+    },
+    "query": {
+      "url": "https://google.com"
+    }
+  },
+  "preview": "<div></div>"
+}

@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "module": "esnext",
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "lib": ["dom", "esnext"],
+    "paths": {
+      "~components/*": ["./src/components/*"],
+      "~constants/*": ["./src/constants/*"],
+      "~containers/*": ["./src/containers/*"],
+      "~assets/*": ["./src/assets/*"],
+      "~hooks/*": ["./src/hooks/*"],
+      "~types/*": ["./src/types/*"],
+      "~utils/*": ["./src/utils/*"],
+      "~i18n/*": ["./src/i18n/*"],
+      "~styles/*": ["./src/scss/*"],
+      "~theme/*": ["./src/theme/*"]
+    },
+    "strict": true,
+    "sourceMap": true,
+    "target": "esnext"
+  },
+  "exclude": ["node_modules"]
+}

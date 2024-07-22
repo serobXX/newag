@@ -1,0 +1,11 @@
+node_modules
+.yarn/cache
+stats.json
+dist
+.env
+.DS_Store
+/test-results/
+/coverage
+/playwright-report/
+/playwright/.cache/
+/.history

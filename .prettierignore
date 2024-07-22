@@ -1,0 +1,12 @@
+node_modules
+package-lock.json
+yarn.lock
+.gitignore
+.prettierignore
+yarn-error.log
+LICENSE
+*.ejs
+dist
+.yarn
+dist
+
